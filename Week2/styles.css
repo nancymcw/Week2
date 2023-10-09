@@ -1,0 +1,93 @@
+/* I've added styling to all of these elements, picking color I liked and making the images pop.*/
+body {
+    background-color: #73C6B6;
+    font-family: arial; size: 12pt;
+    color: #ffffff;
+}
+img{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10rem;
+    margin: 2rem;
+    
+}
+
+h1 {
+    text-transform: lowercase;
+    letter-spacing: -3px;
+    color: pink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    
+}
+h3 {
+    font-size: 24px;
+    color: #085041;
+
+}
+a {
+    color: #085041; font-size: 14pt; text-transform:lowercase; text-decoration: none;
+    
+}
+a:hover {
+    color: pink;
+}
+
+div {
+    background-color: #73C6B6;
+text-align: center; 
+border-radius: 3rem;
+}
+
+p {
+    text-align: center;
+
+}
+table {
+    text-align: center; 
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    font-size: 14px;
+}
+
+input[type=text] {
+border: 2px solid pink;
+}
+input[type=submit] {
+
+    background-color: #085041;
+    border: none;
+    text-transform: lowercase;
+    font-size: 20px;
+    color: #ffffff;
+}
+input[type=radio] {
+
+}
+
+/*I made an element ID for the navigation at the top of the page that adds a border, width, and padding.
+
+I made an element class for the divs on the form page and the index page to center them.
+& an element class for the header image.*/
+
+#navi {
+    width: 200px;
+    margin: auto;
+    padding:10px;
+    border-color: #ffffff;
+    border-style: dotted;
+}
+.centerdiv {
+    width: 500px;
+    margin: auto;
+    padding: 25px;
+}
+
+.header {
+opacity: 70%;
+width: 500px;
+margin: auto;
+}
